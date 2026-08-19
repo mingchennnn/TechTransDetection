@@ -1,0 +1,41 @@
+{
+  "zenodo_doi": "10.5281/zenodo.22005545",
+  "window_size": 20,
+  "sectors": {
+    "camera": {
+      "data_folder": "camera",
+      "start_year": 1930,
+      "end_year": 2023,
+      "first_stage_min_cluster_size": 1000,
+      "second_stage_min_cluster_size": 10
+    },
+    "automotive": {
+      "data_folder": "automotive",
+      "start_year": 1930,
+      "end_year": 2024,
+      "first_stage_min_cluster_size": 1000,
+      "second_stage_min_cluster_size": 15
+    },
+    "mobile_phone": {
+      "data_folder": "mobile_phone",
+      "start_year": 1960,
+      "end_year": 2024,
+      "first_stage_min_cluster_size": 500,
+      "second_stage_min_cluster_size": 10
+    },
+    "robotics": {
+      "data_folder": "robotics",
+      "start_year": 1975,
+      "end_year": 2024,
+      "first_stage_min_cluster_size": 500,
+      "second_stage_min_cluster_size": 5
+    },
+    "semiconductor": {
+      "data_folder": "semiconductor",
+      "start_year": 1965,
+      "end_year": 2024,
+      "first_stage_min_cluster_size": 500,
+      "second_stage_min_cluster_size": 5
+    }
+  }
+}
